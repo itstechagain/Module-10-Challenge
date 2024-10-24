@@ -7,13 +7,13 @@ CREATE DATABASE employees;
 -- Connect to the database
 \c employees
 
--- Create the department table
+-- department table
 CREATE TABLE department (
   id SERIAL PRIMARY KEY,
   name VARCHAR(30) UNIQUE NOT NULL
 );
 
--- Create the role table
+-- role table
 CREATE TABLE role (
   id SERIAL PRIMARY KEY,
   title VARCHAR(30) UNIQUE NOT NULL,
@@ -22,7 +22,7 @@ CREATE TABLE role (
   CONSTRAINT fk_department FOREIGN KEY (department_id) REFERENCES department(id) ON DELETE CASCADE
 );
 
--- Create the employee table
+-- employee table
 CREATE TABLE employee (
   id SERIAL PRIMARY KEY,
   first_name VARCHAR(30) NOT NULL,
