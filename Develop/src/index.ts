@@ -20,62 +20,62 @@ function loadMainPrompts() {
     {
       type: 'list',
       name: 'choice',
-      message: 'What would you like to do?',
+      message: 'Choose an option below',
       choices: [
         {
-          name: 'View All Employees',
+          name: 'View all employees',
           value: 'VIEW_EMPLOYEES',
         },
         {
-          name: 'View All Employees By Department',
+          name: 'View all employees by department',
           value: 'VIEW_EMPLOYEES_BY_DEPARTMENT',
         },
         {
-          name: 'View All Employees By Manager',
+          name: 'View all employees by manager',
           value: 'VIEW_EMPLOYEES_BY_MANAGER',
         },
         {
-          name: 'Add Employee',
+          name: 'Add employee',
           value: 'ADD_EMPLOYEE',
         },
         {
-          name: 'Remove Employee',
+          name: 'Remove employee',
           value: 'REMOVE_EMPLOYEE',
         },
         {
-          name: 'Update Employee Role',
+          name: 'Update employee role',
           value: 'UPDATE_EMPLOYEE_ROLE',
         },
         {
-          name: 'Update Employee Manager',
+          name: 'Update employee manager',
           value: 'UPDATE_EMPLOYEE_MANAGER',
         },
         {
-          name: 'View All Roles',
+          name: 'View all roles',
           value: 'VIEW_ROLES',
         },
         {
-          name: 'Add Role',
+          name: 'Add role',
           value: 'ADD_ROLE',
         },
         {
-          name: 'Remove Role',
+          name: 'Remove role',
           value: 'REMOVE_ROLE',
         },
         {
-          name: 'View All Departments',
+          name: 'View all departments',
           value: 'VIEW_DEPARTMENTS',
         },
         {
-          name: 'Add Department',
+          name: 'Add department',
           value: 'ADD_DEPARTMENT',
         },
         {
-          name: 'Remove Department',
+          name: 'Remove department',
           value: 'REMOVE_DEPARTMENT',
         },
         {
-          name: 'View Total Utilized Budget By Department',
+          name: 'Viewtotal utilized budget by department',
           value: 'VIEW_UTILIZED_BUDGET_BY_DEPARTMENT',
         },
         {
