@@ -29,6 +29,8 @@ Add an employee: Prompts for employee’s name, role, and manager, and adds the 
 Update an employee role: Selects an employee to update their role in the database.
 
 ## Link
+https://github.com/itstechagain/Module-10-Challenge
+https://drive.google.com/file/d/1xO6wYGHaStgxcBO1JrVmldZbITv2NQTM/view?usp=sharing
 
 ## License
 This project is not licensed.
